@@ -55,7 +55,10 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 
 /*-----------------------------------  Popup ---------------------------------------- */
 
-#popup{background-color: #FF974F; height: 5000px;}
+#popup{background-color: #FF974F; height: 600px; position: relative;}
+.popup-window{background-color: #9C9B7A; margin-top: 50px; width: 60%; padding: 30px; position: absolute;  right: -300px; transition: 0.5s;}
+
+.popup-window--active{right: 300px;}
 
 /*-----------------------------------  Animation ---------------------------------------- */
 
