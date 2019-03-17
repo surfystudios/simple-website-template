@@ -1,0 +1,136 @@
+/* ----------------------------------------------------------------------------------------
+                                         typography
+---------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------
+                                         font faces
+---------------------------------------------------------------------------------------- */
+/**********************  BRANDON  ***************************/
+
+@font-face {
+font-family: "brandon-black_2";
+src: url("assets/fonts/brandon-black_2.woff");
+src:
+url("assets/fonts/brandon-black_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-black-italic_2";
+src: url("assets/fonts/brandon-black-italic_2.woff");
+src:
+url("assets/fonts/brandon-black-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-bold_2";
+src: url("assets/fonts/brandon-bold_2.woff");
+src:
+url("assets/fonts/brandon-bold_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-bold-italic_2";
+src: url("assets/fonts/brandon-bold-italic_2.woff");
+src:
+url("assets/fonts/brandon-bold-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-light_2";
+src: url("assets/fonts/brandon-light_2.woff");
+src:
+url("assets/fonts/brandon-light_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-light-italic_2";
+src: url("assets/fonts/brandon-light-italic_2.woff");
+src:
+url("assets/fonts/brandon-light-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-medium_2";
+src: url("assets/fonts/brandon-medium_2.woff");
+src:
+url("assets/fonts/brandon-medium_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-medium-italic_2";
+src: url("assets/fonts/brandon-medium-italic_2.woff");
+src:
+url("assets/fonts/brandon-medium-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-regular_2";
+src: url("assets/fonts/brandon-regular_2.woff");
+src:
+url("assets/fonts/brandon-regular_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-regular-italic_2";
+src: url("assets/fonts/brandon-regular-italic_2.woff");
+src:
+url("assets/fonts/brandon-regular-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-thin_2";
+src: url("assets/fonts/brandon-thin_2.woff");
+src:
+url("assets/fonts/brandon-thin_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "brandon-thin-italic_2";
+src: url("assets/fonts/brandon-thin-italic_2.woff");
+src:
+url("assets/fonts/brandon-thin-italic_2.woff2") format("woff2"),
+}
+
+/**********************  BULMER  ***************************/
+
+@font-face {
+font-family: "bulmer-bold-italic_2";
+src: url("assets/fonts/bulmer-bold-italic_2.woff");
+src:
+url("assets/fonts/bulmer-bold-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "bulmer-italic_2";
+src: url("assets/fonts/bulmer-italic_2.woff");
+src:
+url("assets/fonts/bulmer-italic_2.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "bulmer-regular_2";
+src: url("assets/fonts/bulmer-regular_2.woff");
+src:
+url("assets/fonts/bulmer-regular_2.woff2") format("woff2"),
+}
+
+
+/**********************  NOTERA  ***************************/
+
+@font-face {
+font-family: "notera_2";
+src: url("assets/fonts/notera_2.woff");
+src:
+url("assets/fonts/notera_2.woff2") format("woff2"),
+}
+
+
+/**********************  VOLTA  ***************************/
+
+@font-face {
+font-family: "volta_2";
+src: url("assets/fonts/volta_2.woff");
+src:
+url("assets/fonts/volta_2.woff") format("woff2"),
+}
