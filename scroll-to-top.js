@@ -5,7 +5,7 @@ $(document).ready(function(){
    var y = $(document).scrollTop();
     console.log(y);
 
-    if( y < 2700 || y > 4500){
+    if( y < 2700 || y > 4300){
       console.log('button should show now');
       // $('.button').fadeIn('slow');
       $('.button').removeClass('show');
