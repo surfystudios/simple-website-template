@@ -8,6 +8,7 @@
 .container{background-color: inherit; width: 50%; margin: 0 auto; padding: 20px;}
 
 /*-----------------------------------  Layout ---------------------------------------- */
+/*Question - How do I make the whole card responsive instead of just the images?*/
 
 #layout{background-color: #9C9B7A; display: block; padding: 50px;}
 .card{width: 80%; display: flex; justify-content: space-between; margin: 50px auto;}
@@ -17,13 +18,21 @@
     .card__main-img{width: 200px; height: 100%; margin: 20px;}
     .card__copy{padding: 20px;}
 
-/*-----------------------------------  Animation ---------------------------------------- */
+    @media screen and (max-width: 1200px) {
+      .card__main-img{width: 100px; margin: 10px;}
+    }
 
-#animation{background-color: #FFD393}
+    @media screen and (max-width:1000px) {
+      .card__main-img{width: 50px; margin: 5px;}
+    }
 
 /*-----------------------------------  Aspect-Ratio ---------------------------------------- */
 
 #aspect-ratio{background-color: #FF974F}
+
+/*-----------------------------------  Animation ---------------------------------------- */
+
+#animation{background-color: #FFD393}
 
 /*-----------------------------------  Lazy Load ---------------------------------------- */
 
