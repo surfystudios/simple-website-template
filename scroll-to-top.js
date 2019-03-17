@@ -1,7 +1,10 @@
+
 // This button scrolls you back to the beginning of the scroll section
+
 $(document).ready(function(){
   //notify when something scrolls
   $(window).scroll(function(){
+
    var y = $(document).scrollTop();
     console.log(y);
 
