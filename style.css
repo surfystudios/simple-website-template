@@ -9,8 +9,7 @@
 
 /*-----------------------------------  Layout ---------------------------------------- */
 /*Question - How do I make the whole card responsive instead of just the images?*/
-
-#layout{background-color: #9C9B7A; display: block; padding: 50px;}
+#layout{background-color: #9C9B7A; display: block;}
 .card{width: 80%; display: flex; justify-content: space-between; margin: 50px auto;}
 .card--light{background-color: white;}
 .card--dark{background-color: teal;}
@@ -28,7 +27,10 @@
 
 /*-----------------------------------  Aspect-Ratio ---------------------------------------- */
 
-#aspect-ratio{background-color: #FF974F}
+#aspect-ratio{background-color: #FF974F;}
+.aspect-ratio__grandparent{width:800px; max-width:90%; margin:0 auto; padding: 50px;}
+.aspect-ratio__parent{width:100%; padding-top:calc(100% / 16 * 9); position:relative;}
+iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
 
 /*-----------------------------------  Animation ---------------------------------------- */
 
