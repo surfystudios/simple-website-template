@@ -41,7 +41,7 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 /*-----------------------------------  Scroll ---------------------------------------- */
 
 #scroll{background-color: #A1C181;}
-.button{position: fixed; width: 120px; height: 60px; background-color: purple; opacity: 0; transition: opacity 1s; padding: 20px; right: 200px; top: 20px; z-index: 10;}
+.button{position: fixed; width: 120px; white-space: nowrap; height: 60px; background-color: purple; opacity: 0; transition: opacity 1s; padding: 20px; right: 200px; top: 20px; z-index: 10;}
 .show{opacity: 1;}
 
 #scroll p {padding: 20px; margin: 10px;}
@@ -63,3 +63,6 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 /*-----------------------------------  Animation ---------------------------------------- */
 
 #animation{background-color: #FFD393}
+.icon{}
+  .icon__symbol{}
+  .icon__symbol p {width: 100px; height: 50px; background-color: lavender; }
