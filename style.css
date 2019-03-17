@@ -11,7 +11,7 @@
 /*Question - How do I make the whole card responsive instead of just the images?*/
 #layout{background-color: #9C9B7A; display: block;}
 .card{width: 80%; display: flex; justify-content: space-between; margin: 50px auto;}
-.card--light{background-color: white;}
+.card--light{background-color: white; color:teal;}
 .card--dark{background-color: teal;}
   .card__section{width: 50%; height: 100%;}
     .card__main-img{width: 200px; height: 100%; margin: 20px;}
@@ -32,13 +32,14 @@
 .aspect-ratio__parent{width:100%; padding-top:calc(100% / 16 * 9); position:relative;}
 iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
 
-/*-----------------------------------  Animation ---------------------------------------- */
-
-#animation{background-color: #FFD393}
-
 /*-----------------------------------  Lazy Load ---------------------------------------- */
 
 #lazy-load{background-color: #FCCA46}
+img{width: 300px; margin: 50px; min-height: 100px; vertical-align: top;}
+.hidden{display: none;}
+
+
+
 
 /*-----------------------------------  Popup ---------------------------------------- */
 
@@ -47,3 +48,7 @@ iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
 /*-----------------------------------  Scroll ---------------------------------------- */
 
 #scroll{background-color: #A1C181}
+
+/*-----------------------------------  Animation ---------------------------------------- */
+
+#animation{background-color: #FFD393}
