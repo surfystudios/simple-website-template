@@ -2,7 +2,7 @@
                                          global page styles
 ---------------------------------------------------------------------------------------- */
 
-/*************************  HEADINGS  ************************/
+/*********************************************  HEADINGS  ***********************************************/
 
   h1 {font-family: "notera_2"; font-size: 45px;}
   h2 {font-family: "bulmer-italic_2"; font-size: 16px; text-transform: uppercase}
@@ -11,3 +11,31 @@
   h5 {font-family: "volta_2"; font-size: 20px;}
 
   p {font-family: "bulmer-regular_2"; font-size: 16px;}
+
+
+/*********************************************  NORMALIZE AND MEDIA QUERIES  ***********************************************/
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  width:1600px;
+  border:solid 1px;
+  min-height:100px;
+  margin:0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .wrapper{ width:1200px;}
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper{ width:1000px;}
+}
+
+@media screen and (max-width:1000px) {
+  .wrapper{ width:100%;}
+}
