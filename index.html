@@ -14,7 +14,8 @@
 
 
   <body>
-    <div id="heading" class="wrapper">
+
+    <div class="wrapper">
 
       <section id="headings">
         <div class="container">
@@ -26,19 +27,33 @@
           <h5>are ya!</h5>
 
           <p>hello world!</p>
-       </div>
+        </div>
       </section>
 
       <section id="layout">
-        <div class="card--light">
+
+        <div class="card card--light">
           <div class="card__section">
-            <img src="assets/img/img-1.jpg">
+            <img class="card__main-img" src="assets/img/img-1.jpg">
           </div>
           <div class="card__section">
-            <h1>card title</h1>
-            <p>card copy lorem lorem ipsum ipsum etc.</p>  
+            <div class="card__copy">
+              <h1>card title</h1>
+              <p>card copy lorem lorem ipsum ipsum etc.</p>
+            </div>
           </div>
         </div>
+
+        <div class="card card--dark">
+          <div class="card__section">
+            <div class="card__copy">
+              <h1>card title</h1>
+              <p>card copy lorem lorem ipsum ipsum etc.</p>
+            </div>
+          </div>
+            <img class="card__main-img" src="assets/img/img-2.jpg">
+          </div>
+
       </section>
 
       <section id="animation"></section>
@@ -51,5 +66,6 @@
 
       <section id="scroll"></section>
 
+    </div>
   </body>
 </html>

@@ -9,7 +9,13 @@
 
 /*-----------------------------------  Layout ---------------------------------------- */
 
-#layout{background-color: #9C9B7A}
+#layout{background-color: #9C9B7A; display: block; padding: 50px;}
+.card{width: 80%; display: flex; justify-content: space-between; margin: 50px auto;}
+.card--light{background-color: white;}
+.card--dark{background-color: teal;}
+  .card__section{width: 50%; height: 100%;}
+    .card__main-img{width: 200px; height: 100%; margin: 20px;}
+    .card__copy{padding: 20px;}
 
 /*-----------------------------------  Animation ---------------------------------------- */
 
