@@ -28,6 +28,8 @@
   margin:0 auto;
 }
 
+button{margin: 50px;}
+
 /*********************************************  SPACING  ***********************************************/
 
 section{margin: 50px; height:100%;color: white; padding: 50px;}

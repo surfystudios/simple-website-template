@@ -38,16 +38,24 @@ iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
 img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 .hidden{display: none;}
 
+/*-----------------------------------  Scroll ---------------------------------------- */
 
+#scroll{background-color: #A1C181;}
+.button{width: 120px; height: 60px; background-color: purple; opacity: 0; position: fixed; padding: 20px; right: 20px; top: 20px; z-index: 10;}
+.show{opacity: 1;}
+
+#scroll p {padding: 20px; margin: 10px;}
+#scroll p:nth-of-type(1){border: 5px solid  #405952;}
+#scroll p:nth-of-type(2){border: 5px solid  #9C9B7A;}
+#scroll p:nth-of-type(3){border: 5px solid #FF974F;}
+#scroll p:nth-of-type(4){border: 5px solid #FCCA46;}
+#scroll p:nth-of-type(5){border: 5px solid #FF974F;}
+#scroll p:nth-of-type(6){border: 5px solid #FFD393;}
 
 
 /*-----------------------------------  Popup ---------------------------------------- */
 
-#popup{background-color: #FF974F}
-
-/*-----------------------------------  Scroll ---------------------------------------- */
-
-#scroll{background-color: #A1C181}
+#popup{background-color: #FF974F; height: 5000px;}
 
 /*-----------------------------------  Animation ---------------------------------------- */
 
