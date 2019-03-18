@@ -45,8 +45,8 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 .show{opacity: 1;}
 
 #scroll p {padding: 20px; margin: 10px;}
-#scroll p:nth-of-type(1){border: 5px solid  #405952;}
-#scroll p:nth-of-type(2){border: 5px solid  #9C9B7A;}
+#scroll p:nth-of-type(1){border: 5px solid #405952;}
+#scroll p:nth-of-type(2){border: 5px solid #9C9B7A;}
 #scroll p:nth-of-type(3){border: 5px solid #FF974F;}
 #scroll p:nth-of-type(4){border: 5px solid #FCCA46;}
 #scroll p:nth-of-type(5){border: 5px solid #FF974F;}
@@ -62,7 +62,12 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 
 /*-----------------------------------  Animation ---------------------------------------- */
 
-#animation{background-color: #FFD393;}
+#animation-js-hover{background-color: #405952;}
 .icon{display: inline-block; margin: 20px; position: relative; width: 200px; height: 200px; background-color: #FF974F; hover: cursor;}
   .icon__copy {display: none; z-index: 5; position: absolute; top: 80px; left: 30px; width: 250px; height: 80px; padding: 10px; background-color: #FCCA46;}
   .icon__copy--active {display: block;}
+
+#animation-css-hover{background-color: #9C9B7A;}
+.icon--css{display: inline-block; margin: 20px; position: relative; width: 200px; height: 200px; background-color: purple; hover: cursor;}
+  .icon__copy--css {display: none; z-index: 5; position: absolute; top: 80px; left: 30px; width: 250px; height: 80px; padding: 10px; background-color: #FFD393;}
+  .icon--css:hover .icon__copy--css{display: block;}
