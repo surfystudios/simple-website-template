@@ -70,4 +70,16 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 #animation-css-hover{background-color: #9C9B7A;}
 .icon--css{display: inline-block; margin: 20px; position: relative; width: 200px; height: 200px; background-color: purple; hover: cursor;}
   .icon__copy--css {display: none; z-index: 5; position: absolute; top: 80px; left: 30px; width: 250px; height: 80px; padding: 10px; background-color: #FFD393;}
-  .icon--css:hover .icon__copy--css{display: block;}
+  .icon--css:hover .icon__copy--css{display: block;} /* this is the function for CSS hover stuff*/
+
+
+/*-----------------------------------  Click here See there ---------------------------------------- */
+
+#click-here-see-there{background-color: lavender; position: relative;min-height: 400px;}
+  .info{display: none; width: 200px; height: 100px; background-color: purple; padding: 10px;}
+  .marker{position: absolute; width: 50px; height: 50px; background-color: blue; border-radius: 50%; font-size: 10px; text-align: center; padding-top: 15px;}
+    #m1{top: 30%; left: 90%;}
+    #m2{top: 13%; left: 72%;}
+    #m3{top: 36%; left: 58%;}
+    #m4{top: 60%; left: 80%;}
+    #m5{top: 36%; left: 78%;}
