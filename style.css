@@ -76,7 +76,8 @@ img{width: 300px; margin: 10px; min-height: 100px; vertical-align: top;}
 /*-----------------------------------  Click here See there ---------------------------------------- */
 
 #click-here-see-there{background-color: lavender; position: relative;min-height: 400px;}
-  .info{display: none; width: 200px; height: 100px; background-color: purple; padding: 10px;}
+  .info{display: none; width: 200px; height: 100px; background-color: tomato; padding: 10px;}
+  .info--active{display: block;}
   .marker{position: absolute; width: 50px; height: 50px; background-color: blue; border-radius: 50%; font-size: 10px; text-align: center; padding-top: 15px;}
     #m1{top: 30%; left: 90%;}
     #m2{top: 13%; left: 72%;}
